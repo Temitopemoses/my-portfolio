@@ -11,7 +11,7 @@ const About = () => {
     >
       <Row className="align-items-center justify-content-center w-75 mx-auto"> 
         <Col md={6} data-aos="fade-right">
-          <Image src="https://via.placeholder.com/400" roundedCircle fluid />
+          <Image src="src\assets\MO_02397-removebg-preview.png" roundedCircle fluid />
         </Col>
         <Col md={6} data-aos="fade-left">
           <h2 className="fw-bold">About Me</h2>

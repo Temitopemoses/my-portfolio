@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <Navbar expand="lg" bg="dark" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand href="#">MyPortfolio</Navbar.Brand>
+        <Navbar.Brand href="#">Temitope Moses</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
