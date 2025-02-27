@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
+import '../styles/custom.css'; // Import custom CSS
 
 const Contact = () => {
   const form = useRef();
@@ -44,7 +45,7 @@ const Contact = () => {
           <Form.Label>Message</Form.Label>
           <Form.Control as="textarea" rows={3} placeholder="Write your message" name="message" required />
         </Form.Group>
-        <Button variant="warning" type="submit">Send</Button>
+        <Button className="custom-blue-button" type="submit">Send</Button>
       </Form>
     </Container>
   );

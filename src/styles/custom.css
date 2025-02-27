@@ -84,6 +84,17 @@ html {
   margin-top: 1rem;
 }
 
+.custom-blue-button {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.custom-blue-button:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
 .footer {
   background-color: #1a1a1a;
   color: #ffffff;
