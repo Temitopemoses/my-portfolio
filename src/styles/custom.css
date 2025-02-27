@@ -84,6 +84,20 @@ html {
   margin-top: 1rem;
 }
 
+.hero-title {
+  font-size: 4rem; /* Increase the font size */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verified-icon {
+  color: #1da1f2; /* Instagram blue color */
+  margin-left: 10px;
+  font-size: 1.5rem; /* Adjust the size of the icon */
+}
+
 .custom-blue-button {
   background-color: #17a2b8;
   border-color: #17a2b8;

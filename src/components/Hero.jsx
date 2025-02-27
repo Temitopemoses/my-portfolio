@@ -1,13 +1,17 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { Typewriter } from 'react-simple-typewriter'; // Import Typewriter
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import '../styles/custom.css'; // Import custom CSS
 
 const Hero = () => {
   return (
     <div className="hero text-center d-flex align-items-center" style={{ height: '100vh', background: '#121212', color: 'white' }}>
       <Container className="hero-content" data-aos="fade-up">
-        <h1 className="display-3 fw-bold" data-aos="fade-up" data-aos-delay="200">My name is Temitope Moses</h1>
+        <h1 className="display-3 fw-bold hero-title" data-aos="fade-up" data-aos-delay="200">
+          My name is Temitope Moses <FontAwesomeIcon icon={faCheckCircle} className="verified-icon" />
+        </h1>
         <div className="lead" data-aos="fade-up" data-aos-delay="400">
           <Typewriter
             words={[
