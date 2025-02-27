@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.custom-progress-bar .progress-bar {
+  background-color: #17a2b8; /* Teal color */
+}
+
+.custom-progress-bar-inner {
+  background-color: #17a2b8; /* Teal color */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.image-container {
+  width: 300px; /* Increased width */
+  height: 300px; /* Increased height */
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.about-image {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.1);
+}

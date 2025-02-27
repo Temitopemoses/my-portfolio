@@ -16,15 +16,15 @@ const Contact = () => {
       >
         <Form.Group className="mb-3">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter your name" />
+          <Form.Control type="text" placeholder="Enter your name" name="user_name" />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter your email" />
+          <Form.Control type="email" placeholder="Enter your email" name="user_email" />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows={3} placeholder="Write your message" />
+          <Form.Control as="textarea" rows={3} placeholder="Write your message" name="message" />
         </Form.Group>
         <Button variant="warning" type="submit">Send</Button>
       </Form>
