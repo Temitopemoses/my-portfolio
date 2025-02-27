@@ -1,6 +1,7 @@
-import { Container, Row, Col, Card, Badge, ProgressBar } from 'react-bootstrap'
-import { DiReact, DiNodejs, DiPython, DiGit, DiAws, DiJavascript1, DiPostgresql, DiDocker, DiHtml5, DiCss3, DiBootstrap } from 'react-icons/di'
-import { SiTailwindcss, SiFlask, SiDjango } from 'react-icons/si'
+import React from 'react';
+import { Container, Row, Col, Card, Badge, ProgressBar } from 'react-bootstrap';
+import { DiReact, DiNodejs, DiPython, DiGit, DiAws, DiJavascript1, DiPostgresql, DiDocker, DiHtml5, DiCss3, DiBootstrap } from 'react-icons/di';
+import { SiTailwindcss, SiFlask, SiDjango } from 'react-icons/si';
 import '../styles/custom.css'; // Import the custom CSS file
 
 const technologies = [
@@ -31,15 +32,15 @@ const technologies = [
       { name: 'Git', icon: <DiGit size={40} />, experience: '3 years', description: 'A distributed version control system for tracking changes in source code during software development.' }
     ]
   }
-]
+];
 
 // Helper function for progress bar
 const getExperienceLevel = (experience) => {
-  const years = parseInt(experience, 10)
-  return Math.min(years * 25, 100) // 1 year = 25%, 4+ years = 100%
-}
+  const years = parseInt(experience, 10);
+  return Math.min(years * 25, 100); // 1 year = 25%, 4+ years = 100%
+};
 
-export default function Technologies() {
+const Technologies = () => {
   return (
     <section id="technologies" className="py-5 bg-dark text-light">
       <Container>
@@ -75,5 +76,7 @@ export default function Technologies() {
         ))}
       </Container>
     </section>
-  )
-}
+  );
+};
+
+export default Technologies;

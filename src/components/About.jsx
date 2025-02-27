@@ -20,8 +20,8 @@ const About = () => {
           </div>
         </Col>
         <Col md={6} data-aos="fade-left">
-          <h2 className="fw-bold" style={{ fontFamily: 'Roboto, sans-serif' }}>About Me</h2>
-          <p style={{ fontFamily: 'Roboto, sans-serif' }}>
+          <h2 className="fw-bold">About Me</h2>
+          <p>
             I am a front-end developer with over three years of experience in building seamless and interactive web applications. My expertise lies in web development and API integration, and I am currently expanding my skills into backend development using Django and Flask. Passionate about creating efficient and scalable digital solutions, I work with IUSystems to develop tech-based solutions for businesses and educational institutions, helping them leverage technology for improved efficiency and growth.
           </p>
         </Col>
