@@ -4,16 +4,18 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Contact from './components/Contact';
 import Technologies from './components/Technologies';
+import Footer from './components/Footer'; // Import the Footer component
 import ErrorBoundary from './components/ErrorBoundary';
 
 const App = () => {
   return (
     <ErrorBoundary>
-      <Navigation /> {/* Use the correct component name */}
+      <Navigation /> 
       <Hero />
       <About />
       <Technologies />
       <Contact />
+      <Footer /> 
     </ErrorBoundary>
   );
 };
