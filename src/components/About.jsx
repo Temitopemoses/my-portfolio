@@ -16,7 +16,7 @@ const About = () => {
       <Row className="align-items-center justify-content-center w-75 mx-auto"> 
         <Col md={6} data-aos="fade-right">
           <div className="image-container">
-            <Image src="public\files\assets\MO_02397.jpg" roundedCircle fluid className="about-image" />
+            <Image src="/MO_02397.jpg" roundedCircle fluid className="about-image" />
           </div>
         </Col>
         <Col md={6} data-aos="fade-left">
